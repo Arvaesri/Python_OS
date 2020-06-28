@@ -1,0 +1,9 @@
+#Procurar nano para windows
+
+#!/usr/bin/env python
+
+#!/usr/bin/python
+
+#!/usr/local/bin/python
+
+# python

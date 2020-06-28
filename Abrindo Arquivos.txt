@@ -1,0 +1,21 @@
+
+#    https://docs.python.org/3/library/functions.html#open
+
+path = "D://users//arthu//codigos//python//arquivo.txt" 
+arquivo = open(path)
+print(arquivo.readline())
+print("----------------------------------------------------------------------")
+print(arquivo.readline())
+print("----------------------------------------------------------------------")
+print(arquivo.read()) # Vai ler de onde o read line parou até o final
+arquivo.close()
+
+# OU
+print("----------------------------------------------------------------------")
+with open(path) as file: # with vai garantir que o arquivo vai fechar
+	print(file.read())
+
+# file.sort() para gerar uma lista com as linhas ordenadas
+
+with open(path,"w") as file: # write mode The old contents get deleted as soon as we open the file.
+	file.write("It was a dark and cold night") # vai criar se não existir

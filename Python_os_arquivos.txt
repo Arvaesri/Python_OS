@@ -1,0 +1,37 @@
+import os
+import datetime
+
+os.getcwd() # retorna o diretorio onde o programa esta rodando
+
+os.listdir("path") # lista tudo que se encontra no diretorio passado
+
+os.chdir("path/..") # muda o diretorio onde o programa esta rodando
+
+os.mkdir("dir") # cria um diretorio
+
+os.rmdir("dir") # remove diretorio
+
+os.path.isfile("arquivo.txt") # verifica se o arquivo existe
+# True ou False
+
+os.path.isdir() # verifica se o diretorio existe
+
+os.path.abspath("arquivo.txt") # O diretorio onde o arquivo se encontra
+#D:/users/arthu/arquivo.txt
+
+os.path.getsize("arquivo.txt") # tamanho em bytes
+#0
+
+timestamp = os.path.getmtime("arquivo.txt") # a ultima vez que foi modificado em timestamp
+
+
+datetime.datetime.fromtimestamp(timestamp) # vai devolver uma data legivel
+#datetime.datetime(2020,1,1,88888)
+
+os.rename("novel.txt","lixo.txt")
+
+os.path.exists("lixo.txt")
+#True ou False
+
+if os.path.exists("lixo.txt"):
+	os.remove("lixo.txt") # deletou o arquivo
