@@ -1,5 +1,7 @@
 import re
 
+# () - Vai ser ultilizado para capturar os grupos
+
 # Obter uma lista de nomes separados por virgula
 resultado = re.search(r"^(\w*), (\w*)$","Lovelace, Ada")
 print(resultado)
