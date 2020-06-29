@@ -1,5 +1,5 @@
 obs:sem aspas
-grep -i "string procurada" "caminho/do/arquivo/arquivo" (-i torna case sensitive ignorado)
+grep -i "string procurada" "caminho/do/arquivo/arquivo" (-i ignora case sensitive)
 grep "l.rts" "caminho/do/arquivo/arquivo" (O . representa qualquer caractere para busca)
 grep ^começoDeLinha "path" (^ vai buscar todas as linhas que começam com o texto passado)
 grep $começoDeLinha "path" ($ vai buscar todas as linhas que terminam com o texto passado)
