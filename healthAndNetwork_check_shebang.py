@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from network import *
+from Check_Network import *
 import shutil
 import psutil
 def check_disk_usage(disk):
