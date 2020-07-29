@@ -6,9 +6,9 @@ path_arquivo = "D:\\Users\\arthu\\Documents\\Criterion Games\\Need For Speed(TM)
 path_backup = "D:\\Users\\arthu\\Desktop\\NFS-Most Wanted save Backup\\Save\\2503770513"
 
 def atualizar_arquivo(caminho_arquivo,caminho_backup):
-
-    with open(caminho_arquivo,"rb") as arquivo_atualizado:  # read e write em binary para n dar erro
-        copia_atualizada = arquivo_atualizado.read()
+    
+    with open(caminho_arquivo,"rb") as arquivo_atualizado:  # read e write em binary
+        copia_atualizada = arquivo_atualizado.read() # se o arquivo for grande pode ultilizar readline em um loop
 
     with open(caminho_backup ,"wb") as arquivo_backup: 
         arquivo_backup.write(copia_atualizada)
