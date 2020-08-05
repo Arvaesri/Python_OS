@@ -27,7 +27,7 @@ def write_report(dictionary,report_file):
                         f.write(str(k)+':'+str(dictionary[k])+'\n')
         f.close()
 
-write_report(dictionary,'/home/student-02-6f3132bb7e1a/test_report.txt')
+write_report(dictionary,'/home/student-02-6f3132bb7e1a/test_report.txt') # Lembrar de trocar o path
 
 
 
