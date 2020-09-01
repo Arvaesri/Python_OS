@@ -10,8 +10,8 @@ make the necessary corrections, and verify that all the tests pass to make sure 
 ## What you'll do
 
 ### In this lab, you will:
-	* Write a simple test to check for basic functionality
-	* Write a test to check for edge cases
-	* Correct code with a try/except statement
+* Write a simple test to check for basic functionality
+* Write a test to check for edge cases
+* Correct code with a try/except statement
 
 https://googlecoursera.qwiklabs.com/focuses/47746
