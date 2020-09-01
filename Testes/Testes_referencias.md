@@ -1,15 +1,15 @@
 ## Testes Unitarios:
 
 ## Exemplo basico:
-https://docs.python.org/3/library/unittest.html#basic-example
+* https://docs.python.org/3/library/unittest.html#basic-example
 
 ## Como executar testes na linha de comando:
-https://docs.python.org/3/library/unittest.html#command-line-interface
+* https://docs.python.org/3/library/unittest.html#command-line-interface
 
 ## Test Desing patterns:
-https://docs.python.org/3/library/unittest.html#organizing-test-code
+* https://docs.python.org/3/library/unittest.html#organizing-test-code
 
-https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertRaises
+* https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertRaises
 ## Basic assertion:
 
 |Method	                  |  Checks that		    |  New in |
