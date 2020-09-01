@@ -5,6 +5,7 @@
    * Regex
    * Arquivos
    * Testes
+   * Bash
    * Shebang
    * Arquivos CSV
    
