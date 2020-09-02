@@ -7,7 +7,7 @@
    * Testes
    * Bash
    * Shebang
-   * Arquivos CSV
+   * CSV
    
 ## Referencias:
  * #### Regex:
