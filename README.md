@@ -17,6 +17,11 @@
    * https://docs.python.org/3/howto/regex.html#greedy-versus-non-greedy
    * https://regexcrossword.com (regex games)
    
+ * #### Bash:
+   * https://ryanstutorials.net/bash-scripting-tutorial/
+   * https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+   * https://www.shellscript.sh
+   
  * #### Testes:
    * https://docs.python.org/3/library/unittest.html#basic-example
    * https://docs.python.org/3/library/unittest.html#command-line-interface
