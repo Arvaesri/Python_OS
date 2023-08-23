@@ -1,5 +1,5 @@
-# Python_OS
- 
+# Python_OS(Using Python to Interact with the Operating System)
+GenerateReport.py, manipulate files and processes on your computer’s operating system to processes errors in an actual log file and then generates a summary file using tools, like regex, for processing text files and show on html file.
  
  ## Topics:
    * Regex patterns
