@@ -1,15 +1,14 @@
 # Python_OS
- Ultilizando python para interagir com o sistema operacional
  
- ## Assuntos Abordados:
-   * Regex
-   * Arquivos
-   * Testes
-   * Bash
-   * Shebang
-   * CSV
+ 
+ ## Topics:
+   * Regex patterns
+   * Files
+   * Tests
+   * Bash scripts
+   * CSV manipulation
    
-## Referencias:
+## links to future inquiries:
  * #### Regex:
    * www.regex101.com (online tester)
    * https://docs.python.org/3/howto/regex.html
